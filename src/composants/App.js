@@ -1,3 +1,13 @@
+import { FormAuth } from "./FormAuth"
+import { FormCreate } from "./FormCreate"
+import { First } from "./Pages/First"
+
 export function App() {
-    return <h1>Hello world!</h1>;
-  }
+  return (
+    <>
+      <FormAuth />
+      <FormCreate />
+      <First />
+    </>
+  )
+}
