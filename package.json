@@ -2,10 +2,13 @@
   "name": "serveur-simple",
   "version": "1.0.0",
   "description": "test et création d'un serveur simple",
+ 
+  "type": "module",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "serveur":"npm run build && node-dev serveur --notify=false --clear"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +16,13 @@
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "node-dev": "^8.0.0"
   },
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-dev": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1"

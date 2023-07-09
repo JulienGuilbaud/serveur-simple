@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export function FormAuth() {
     return (
         <>
-            <form action="/resutat" method="get" className="form-example">
+            <form action="/resultat" method="get" className="form-example">
                 <legend>authentification</legend>
                 <div className="form-example">
                     <label >Enter your name:
