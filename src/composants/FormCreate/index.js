@@ -1,17 +1,17 @@
 export function FormCreate() {
     return (
         <>
-            <form action="" method="get" class="form-example">
+            <form action="" method="get" className="form-example">
                 <legend>Création compte</legend>
-                <div class="form-example">
-                    <label for="name">Enter your name: </label>
-                    <input type="text" name="name" id="name" required />
+                <div className="form-example">
+                    <label>Enter your name: 
+                    <input type="text" name="name" id="name" required /></label>
                 </div>
-                <div class="form-example">
-                    <label for="email">Enter your email: </label>
-                    <input type="email" name="email" id="email" required />
+                <div className="form-example">
+                    <label >Enter your email: 
+                    <input type="email" name="email" id="email" required /></label>
                 </div>
-                <div class="form-example">
+                <div className="form-example">
                     <input type="submit" value="creer"/>
                 </div>
             </form>
